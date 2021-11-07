@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design-By MADAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>about us</h1>
+    </section>
+    
+    <!--about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>we are the largest ecucational university in 2021</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a necessitatibus maiores officia, aperiam quos? Esse et aliquam impedit eaque inventore qui deserunt error 
+                    corporis necessitatibus consectetur, beatae modi tempore?</p>
+                    <a href="" class="hero-btn red-btn">explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--campus-->
+  
+
+    <!--facilities-->
+   
+
+    <!--testimonials-->
+  
+
+    <!--call to action-->
+  
+
+    <!--footer-->
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quibusdam impedit ea quia consequuntur eligendi deleniti cumque eius rem commodi odit animi aspernatur autem vitae porro inventore, in vero dolorum.</p>
+        <div class="icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <p>made with <i class="fa fa-heart"></i> madan kumar</p>
+    </section>
+<!--js for toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    }
+    </script>
+</body>
+</html>

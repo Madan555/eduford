@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design-By MADAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>course </h1>
+    </section>
+    
+    <!--course-->
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum consectetur adipisicing elit. Sed veritatis.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsam qui error dignissimos! Nemo similique repellendus natus.</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  ipsam qui error dignissimos! Nemo similique repellendus natus.</p>
+                
+            </div>
+            <div class="course-col">
+                <h3>post graduvate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  ipsam qui error dignissimos! Nemo similique repellendus natus.</p>
+                
+            </div>
+        </div>
+    </section>  
+    <!--facilities-->
+    <section class="facilities">
+        <h1>our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="library.png">
+                    <h3>world largest library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur dignissimos magnam libero dolorem ad aut iusto magni nulla, vitae asperiores repellat 
+                        sunt cum numquam perspiciatis doloribus aliquid repellendus dolorum!</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="basketball.png">
+                    <h3>best basketball trainings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur dignissimos magnam libero dolorem ad aut iusto magni nulla, vitae asperiores repellat 
+                        sunt cum numquam perspiciatis doloribus aliquid repellendus dolorum!</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="cafeteria.png">
+                    <h3>tasty cafeteria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur dignissimos magnam libero dolorem ad aut iusto magni nulla, vitae asperiores repellat 
+                        sunt cum numquam perspiciatis doloribus aliquid repellendus dolorum!</p>
+                </div>
+            </div>
+    </section>
+    <!--testimonials-->
+  
+
+    <!--call to action-->
+  
+
+    <!--footer-->
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quibusdam impedit ea quia consequuntur eligendi deleniti cumque eius rem commodi odit animi aspernatur autem vitae porro inventore, in vero dolorum.</p>
+        <div class="icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <p>made with <i class="fa fa-heart"></i> madan kumar</p>
+    </section>
+<!--js for toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    }
+    </script>
+</body>
+</html>
